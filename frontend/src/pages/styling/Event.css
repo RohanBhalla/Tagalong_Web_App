@@ -1,0 +1,208 @@
+.nav_sdbr_lnk{
+	background-color:transparent;
+}
+.nav_sdbr_lnk_evnt{
+	background-color:#f3f3f3;
+}
+.navBtmBtnSpceEvnt{
+	background-color:#f3f3f3;
+}
+
+
+@media(min-width:900px){
+	.evnt_box{
+		max-width:600px;margin-top:40px;
+	}
+}
+@media(max-width:899px){
+	.evnt_box{
+		width:calc(100% - 40px);margin-top:20px;
+	}
+}
+.evnt_box{
+	margin-left:auto;margin-right:auto;display:block;
+}
+
+
+
+@import '~font-awesome/css/font-awesome.css';
+
+/*Event Top*/
+	.evntPgeTop{
+		width:100%;min-height:25px;
+		display:flex;margin-bottom:15px;
+	}
+	.evntPgeTopLft{
+		width:calc(100% - 72px);
+		min-height:25px;
+	}
+	.evntPgeTopLftTxt{
+		float:left;font-family:'Inter', sans-serif;font-weight:500;
+		font-size:18px;line-height:25px;
+		color:#E76F51;text-transform: uppercase;
+	}
+	.evntPgeTopLftDvdr{
+		float:left;height:20px;background-color:#e76f51;margin-top:2.5px;
+		margin-left:10px;margin-right:10px;width:2px;border-radius:1px;
+	}
+
+	.evntPgeTopRgt{
+		width:72px;height:25px;
+	}
+	.evntPgeTopRgtIcn{
+		height:20px;width:20px;float:left;line-height:20px;
+		color:#6e6e6e;margin-top:2.5px;
+		margin-right:6px;
+		text-align:center;
+		font-size:15px !important;cursor:pointer;
+	}
+	.evntPgeTopRgtIcn:hover{
+		color:#E76F51;transition:.5s;
+	}
+	.evntPgeTopRgtIcnMail{
+		margin-right:0px;
+	}
+
+
+
+.evntPgeHdr{
+	display:flex;min-height:35px;width:100%;
+	background-color:#fff;margin-bottom:18px;
+
+}
+.evntPgeHdrNmeBox{
+	width:calc(100% - 120px);min-height:35px;
+}
+.evntPgeHdrNmeBoxTxt{
+	font-family:'Inter', sans-serif;font-weight:500;
+	font-size:24px;line-height:35px;margin-right:15px;
+	overflow-wrap:break-word;word-wrap: break-word;
+}
+.evntPgeHdrLnkBox{
+	width:120px;min-height:35px;
+}
+.evntPgeHdrNmeLoc{
+	font-family:'Inter', sans-serif;font-weight:500;font-size:18px;
+	color:#000;margin-top:6px;
+}
+.evntPgeHdrLnkBtn{
+	width:110px;font-family:'Inter', sans-serif;font-weight:500;
+	height:35px;border-radius:5px;border:1px solid #e6e6e6;cursor:pointer;
+	background-color:#fff;display:block;font-size:13px;
+	line-height:20px;text-align:center;padding-top:6.5px;
+	margin-left:10px;
+	color:#6e6e6e;
+}
+.evntPgeHdrLnkBtn:hover{
+	border:1px solid #f3f3f3;background-color:#f3f3f3;transition:.5s;
+	color:#6e6e6e;text-decoration:none;
+}
+
+.evntPgeHdrLnkBtnCpd{
+	width:110px;font-family:'Inter', sans-serif;font-weight:500;
+	height:35px;border-radius:5px;cursor:default;
+	background-color:#E76F51;display:block;font-size:13px;
+	line-height:20px;text-align:center;padding-top:7.5px;
+	margin-left:10px;
+	color:#fff;
+}
+.evntPgeHdrLnkBtnCpd:hover{
+	opacity:1;transition:.5s;
+	color:#fff;text-decoration:none;
+}
+
+.evnt_tmedte{
+	font-family:'Inter', sans-serif;font-weight:400;
+	font-size:19px;line-height:25px;color:#000;
+	margin-top:15px;margin-bottom:20px;
+}
+
+
+.evnt_pge_dscpnt{
+	font-family:'Inter', sans-serif;font-weight:400;
+	font-size:15px;line-height:25px;color:#6e6e6e;margin-top:16px;
+}
+
+.evnt_pge_ctrls{
+	width:100%;height:35px;margin-top:0px;
+	margin-bottom:25px;
+}
+.evnt_pge_ctrl_go{
+	height:35px;border-radius:4px;width:120px;
+	float: left;
+	font-family:'Inter', sans-serif;font-weight:400;
+	font-size:15px;line-height:20px;color:#fff;
+	background-color:#e76f51;display:block;
+	text-align:center;padding-top:7.5px;line-height:20px;
+	cursor:pointer;
+}
+.evnt_pge_ctrl_go:hover{
+	opacity:.7;transition:.5s;
+	text-decoration:none;color:#fff;
+}
+.evnt_pge_ctrl_shre{
+	height:35px;border-radius:4px;
+	font-family:'Inter', sans-serif;font-weight:400;
+	font-size:15px;line-height:20px;color:#000;
+	background-color:#f3f3f3;display:block;
+	text-align:center;padding-top:7.5px;line-height:20px;
+	cursor:pointer;
+}
+.evnt_pge_ctrl_shre:hover{
+	opacity:.7;transition:.5s;
+	text-decoration:none;color:#000;
+}
+
+
+.evnt_pge_attndnce{
+	font-family:'Inter', sans-serif;font-weight:600;
+	font-size:25px;line-height:30px;
+	margin-top:25px;margin-bottom:14px;
+}
+
+.evnt_pge_goer{
+	width:100%;height:35px;margin-top:15px;
+	display:flex;
+}
+.evntpge_goer_img_box{
+	width:45px;height:30px;
+}
+.evntpge_goer_img{
+	width:30px;height:30px;border-radius:15px;
+
+}
+.evntpge_goer_data{
+	width:calc(100% - 45px);height:30px;
+}
+.evntpge_goer_datatxt{
+	font-family:'Inter', sans-serif;
+	font-weight:500;font-size:15px;line-height:20px;
+	margin-top:5px;
+	text-decoration: none; 
+    color: inherit; 
+}
+.evntpge_goer_datatxt_hst{
+	color:#e76f51;font-size:12px;
+	text-decoration: none; 
+}
+
+
+
+/*Attendance Boxes*/
+	.evnt_pge_attnd_boxes{
+		width:100%;height:45px;
+	}
+	.evnt_pge_attnd_box{
+		width:45px;height:45px;border-radius:22.5px;
+		margin-left:-10px;float:left;
+	}
+	.evnt_pge_attnd_box_hst{
+		border:3px solid #e76f51;margin-left:0px;
+	}
+
+.evntpge_btmspce{
+	width:100%;height:30px;
+}
+
+
+

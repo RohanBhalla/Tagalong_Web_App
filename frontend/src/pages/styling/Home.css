@@ -1,0 +1,28 @@
+.nav_sdbr_lnk{
+	background-color:transparent;
+}
+.nav_sdbr_lnk_hme{
+	background-color:#f3f3f3;
+}
+.navBtmBtnSpceHme{
+	background-color:#f3f3f3;
+}
+
+@media(min-width:900px){
+	.hme_main{
+		max-width:600px;
+	}
+}
+@media(max-width:899px){
+	.hme_main{
+		width:calc(100% - 40px);	
+	}
+}
+.hme_main{
+	margin-left:auto;margin-right:auto;display:block;
+}
+.hme_main_hdr{
+	margin-top:50px;
+	font-family:'Inter', sans-serif;font-weight:600;
+	font-size:28px;margin-bottom:14px;line-height:35px;
+}

@@ -1,0 +1,35 @@
+.nav_sdbr_lnk{
+	background-color:transparent;
+}
+.nav_sdbr_lnk_clndr{
+	background-color:#f3f3f3;
+}
+.navBtmBtnSpceCal{
+	background-color:#f3f3f3;
+}
+
+
+@media(min-width:900px){
+	.cal_main{
+		max-width:600px;
+	}
+}
+@media(max-width:899px){
+	.cal_main{
+		width:calc(100% - 40px);	
+	}
+}
+.cal_main{
+	margin-left:auto;margin-right:auto;display:block;
+}
+.cal_main_hdr{
+	margin-top:50px;
+	font-family:'Inter', sans-serif;font-weight:600;
+	font-size:28px;margin-bottom:5px;line-height:35px;
+}
+
+.cal_main_dte{
+	margin-top:7px;
+	font-family:'Inter', sans-serif;font-weight:400;
+	font-size:15px;margin-bottom:14px;line-height:35px;
+}

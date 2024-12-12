@@ -1,0 +1,4 @@
+recursive-include tagalong_api/public *
+include tagalong_api/public/favicon.ico
+recursive-include tagalong_api/i18n *
+recursive-include tagalong_api/templates *

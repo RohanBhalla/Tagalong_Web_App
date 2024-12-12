@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+linetable/__init__.py
+linetable/linetable.py
+linetable/varint.py
+linetable.egg-info/PKG-INFO
+linetable.egg-info/SOURCES.txt
+linetable.egg-info/dependency_links.txt
+linetable.egg-info/entry_points.txt
+linetable.egg-info/not-zip-safe
+linetable.egg-info/top_level.txt
